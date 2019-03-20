@@ -1,0 +1,23 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-htmlacademy-logo {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -10px;
+}
+
+.sprite-htmlacademy-logo-blue {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -69px;
+}
+
+.sprite-htmlacademy-logo-grey {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -128px;
+}

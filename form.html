@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Седона: Форма поиска</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style-min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  <div class="cover">
+    <header>
+      <ul class="main-navigation">
+        <li class="left">
+          <a href="#">Информация</a>
+        </li><!--
+     --><li class="left">
+          <a href="#">Фото и видео</a>
+        </li><!--
+     --><li class="header-logo">
+          <a href="./index.html">
+            <img src="img/logo-small.png" width="138" height="70" alt="Седона">
+          </a>
+        </li><!--
+     --><li class="right">
+          <a href="./map.html">Карта штата</a>
+        </li><!--
+     --><li class="right">
+          <a href="./catalog.html">Гостиницы</a>
+        </li>
+      </ul>
+    </header>
+    <main class="form-page-main">
+      <form class="search-form search-form-page" action="https://echo.htmlacademy.ru" method="post">
+        <div class="form-line clearfix">
+          <label for="day-in">Дата заезда:</label>
+          <input class="date field" type="text" id="day-in" name="in" placeholder="24 апреля 2016" required>
+          <div class="icon-calendar"></div>
+        </div>
+        <div class="form-line clearfix">
+          <label for="day-out">Дата выезда:</label>
+          <input class="date field" type="text" id="day-out" name="out" placeholder="4 июля 2016">
+          <div class="icon-calendar"></div>
+        </div>
+        <div class="form-line clearfix">
+          <div class="half-width">
+            <label for="adult">Взрослые:</label>
+            <div class="unit-container">
+              <button class="btn minus-btn" type="button">
+                <i class="icon-minus"></i>
+              </button>
+              <input class="unit field" type="text" name="adults" id="adult" value="2" required>
+              <button class="btn plus-btn" type="button">
+                <i class="icon-plus"></i>
+              </button>
+            </div>
+          </div><!--
+       --><div class="half-width">
+            <label for="kid">Дети:</label>
+            <div class="unit-container clearfix">
+              <button class="btn minus-btn" type="button">
+                <i class="icon-minus"></i>
+              </button>
+              <input class="unit field" type="text" name="kids" id="kid" value="0">
+              <button class="btn plus-btn" type="button">
+                <i class="icon-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <button class="find-btn" type="button"><span>Найти</span></button>
+      </form>
+    </main>
+    <footer>
+      <div class="one-third">
+        <a class="insta" href="#">#visitsedona</a>
+      </div><!--
+   --><div class="one-third social-btns">
+        <a class="social" href="#">Twitter<span class="icon-twitter"></span></a><!--
+     --><a class="social" href="#">Facebook<span class="icon-facebook"></span></a><!--
+     --><a class="social" href="#">Youtube<span class="icon-youtube"></span></a>
+      </div><!--
+   --><div class="one-third developer">
+        <span>Website by</span>
+        <a class="sprite academy" href="https://htmlacademy.ru/">HTML academy</a>
+      </div>
+    </footer>
+    </div>
+  </body>
+</html>
